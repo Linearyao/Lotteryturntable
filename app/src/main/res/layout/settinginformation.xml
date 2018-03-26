@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置起始日期" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="起始日期："
+        android:layout_below="@+id/date_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/date_button" />
+
+    <Button
+        android:id="@+id/time_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置开始时间"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tv_date"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="现在时间："
+        android:layout_below="@+id/time_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/time_button" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置截止日期"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="截止日期："
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignRight="@+id/button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置截止时间"
+        android:layout_alignTop="@+id/time_button"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="现在时间："
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_time"
+        android:layout_alignLeft="@+id/button2" />
+
+    <ImageButton
+        android:id="@+id/Ibtn2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="260dp"
+        android:clickable="true"
+        android:nestedScrollingEnabled="false"
+        android:src="@mipmap/login" />
+
+</RelativeLayout>

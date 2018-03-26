@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/Image0"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/user" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:id="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignEnd="@+id/Image0"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/Image0"
+        android:layout_below="@+id/Image0"
+        android:layout_marginBottom="360dp"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/password" />
+
+    <ImageButton
+        android:id="@+id/Ibtn1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="260dp"
+        android:clickable="true"
+        android:nestedScrollingEnabled="false"
+        android:src="@mipmap/login" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="250dp"
+        android:layout_marginTop="260dp"
+        android:src="@mipmap/exit"
+        android:id="@+id/imageButton" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignTop="@+id/image2"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2" />
+
+</RelativeLayout>
